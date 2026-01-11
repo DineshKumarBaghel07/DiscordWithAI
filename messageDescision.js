@@ -12,7 +12,7 @@ async function messageDescision(messageData) {
     }
 
     try {
-        const response = await apiService(content)
+        const response = await apiService(validMessage)
         await dispatcher(messageData, response);
 
     }

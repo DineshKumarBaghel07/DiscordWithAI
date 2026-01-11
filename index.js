@@ -6,8 +6,5 @@ import messageListner from'./messageListner.js';
 messageListner(client);
 
 
-
-
-
 // Enter your Token of bot
 client.login(process.env.TOKEN);
